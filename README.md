@@ -1,3 +1,5 @@
+ [![logo.png][5]
+ 
  > Sell digital files from any host or server
  
  Filesprout is already setup to easily integrate with Dropbox and files on any server. 
@@ -59,16 +61,13 @@ POST	"https://filesprout.com/l/api/1.0/getbutton"
  - [RapidWeaver Stack][2]
  - [Google Chrome Application][3]
  - [Mac OS X Application][4]
- 
- # Contributing
- 
- See [contributing.markdown][14] for details.
- 
+  
  # License
  
  MIT
  
- [1]: https://filesprout.com/l/bootstrap/php-curl.txt
+ [1]: https://github.com/yuzoolcode/filesprout-api/blob/master/php-curl.php
  [2]: https://www.yuzoolthemes.com/themes/filesprout/
  [3]: https://chrome.google.com/webstore/detail/filesprout/janifcmcpcenddbcklkdnddgpahodnaa
  [4]: http://www.macupdate.com/app/mac/55160/filesprout
+ [5]: https://github.com/yuzoolcode/filesprout-api/blob/master/resources/logo.png
