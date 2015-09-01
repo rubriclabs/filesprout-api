@@ -1,4 +1,4 @@
- [![logo.png][5]
+ [![logo.png][5][6]
  
  > Sell digital files from any host or server
  
@@ -13,7 +13,7 @@
  POST	"https://filesprout.com/l/api/1.0/getlink"
  ```
 
- # Get a button
+# Get a button
  
  ```js
 POST	"https://filesprout.com/l/api/1.0/getbutton"
@@ -23,7 +23,7 @@ POST	"https://filesprout.com/l/api/1.0/getbutton"
  
  Requests are made by sending JSON data to either of the endpoints in the form of a POST request.
  
- # Get a button
+# Get a button
  
  ```js
  {"name":"Product name","price":"20.00"
@@ -35,34 +35,34 @@ POST	"https://filesprout.com/l/api/1.0/getbutton"
  
  Filesprout provides all responses, both successful and unsuccessful, in an easy to work with JSON data format. Check out the examples below.
  
- # SUCCESSFUL REQUEST: RESPONSE WITH FILESPROUT LINK
+# SUCCESSFUL REQUEST: RESPONSE WITH FILESPROUT LINK
  
  ```js
  {"data":"https://filesprout.com/l/WkQVYPS"}
  ```
 
- # UNSUCCESSFUL REQUEST: RESPONSE WITH ERROR MESSAGE
+# UNSUCCESSFUL REQUEST: RESPONSE WITH ERROR MESSAGE
  
  ```js
  {"data":"Null"
  ,"error":"The file is not reachable at that URL"}
  ```
 
- # Resources 
+# Resources 
  
  To help you get started we've provided some sample code and links to Filesprout plugins.
  
- ## Sample Code
+## Sample Code
  
  - [PHP implementation using CURL][1]
 
- ## Plugins
+## Plugins
  
  - [RapidWeaver Stack][2]
  - [Google Chrome Application][3]
  - [Mac OS X Application][4]
   
- # License
+# License
  
  MIT
  
@@ -71,3 +71,4 @@ POST	"https://filesprout.com/l/api/1.0/getbutton"
  [3]: https://chrome.google.com/webstore/detail/filesprout/janifcmcpcenddbcklkdnddgpahodnaa
  [4]: http://www.macupdate.com/app/mac/55160/filesprout
  [5]: https://github.com/yuzoolcode/filesprout-api/blob/master/resources/logo.png
+ [6]: https://filesprout.com/l/
